@@ -2,6 +2,7 @@ use std::cmp::Ordering;
 use std::fs;
 use std::io::{self,Write};
 use serde::{Deserialize,Serialize};
+use chrono::{DateTime,Utc};
 
 #[derive(Serialize,Deserialize,Debug,PartialEq )]
 enum Priority{
@@ -15,7 +16,8 @@ struct Task{
     id:u32,
     description:String,
     completed:bool,
-    priority:Priority
+    priority:Priority,
+    creation_time:DateTime<Utc>,
 }
 
 struct TaskManager{
@@ -32,7 +34,8 @@ impl TaskManager{
             id: self.tasks.len() as u32+1,
             description,
             completed:false,
-            priority
+            priority,
+            creation_time:Utc::now(),
         };
         self.tasks.push(task);
         self.sort_task_by_priority();
@@ -45,8 +48,8 @@ impl TaskManager{
         }
         else{
             for task in &self.tasks{
-                println!("ID:{} \nDescription:{},\nPriority:{:?} \nCompleted:{}",
-                         task.id,task.description,task.priority,task.completed);
+                println!("ID:{} \nDescription:{},\nPriority:{:?} \nCompleted:{} \nCreation Time:{}",
+                         task.id,task.description,task.priority,task.completed,task.creation_time);
                 println!("--------XX---------XX-------")
             }
         }

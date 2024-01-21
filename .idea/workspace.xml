@@ -7,9 +7,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4976f0bf-5ee9-4698-b028-3a81cb4b027d" name="Changes" comment="added Basic Task manager function&#10;- Add Task&#10;- List task&#10;- Save task&#10;- Load Task">
+    <list default="true" id="4976f0bf-5ee9-4698-b028-3a81cb4b027d" name="Changes" comment="Added Task prioritization, consumption of task as per priority and task sorting as per priority">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task.json" beforeDir="false" afterPath="$PROJECT_DIR$/Task.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <workItem from="1705824709439" duration="363000" />
       <workItem from="1705825197310" duration="4710000" />
       <workItem from="1705844520400" duration="54000" />
-      <workItem from="1705844595888" duration="1587000" />
+      <workItem from="1705844595888" duration="2498000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -97,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705827564858</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Task prioritization, consumption of task as per priority and task sorting as per priority">
+      <option name="closed" value="true" />
+      <created>1705849383405</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705849383405</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added Basic Task manager function&#10;- Add Task&#10;- List task&#10;- Save task&#10;- Load Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Basic Task manager function&#10;- Add Task&#10;- List task&#10;- Save task&#10;- Load Task" />
+    <MESSAGE value="Added Task prioritization, consumption of task as per priority and task sorting as per priority" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Task prioritization, consumption of task as per priority and task sorting as per priority" />
   </component>
 </project>
