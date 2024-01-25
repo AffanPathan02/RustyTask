@@ -61,7 +61,7 @@ impl TaskManager{
             println!("Task is marked as completed");
         }
         else {
-            println!("Task marked as completed");
+            println!("Task marked completed");
         }
     }
 
